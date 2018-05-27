@@ -40,6 +40,13 @@ Plugin 'gaalcaras/ncm-R'
 " vim-hug-neovim-rpc
 Plugin 'roxma/vim-hug-neovim-rpc'
 
+" UltiSnips is the ultimate solution for snippets in Vim
+Plugin 'SirVer/ultisnips'
+
+" YouCompleteMe: a code-completion engine for Vim
+Plugin 'Valloric/YouCompleteMe'
+
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()		"required
