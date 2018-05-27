@@ -1,6 +1,7 @@
 set nocompatible		" be iMproved, required
 filetype off			" required
 
+set encoding=utf-8
 " Turn on syntax highlighting
 syntax on
 
@@ -34,14 +35,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 " NERDtree
 Plugin 'scrooloose/nerdtree'
-
-" Asynchronous R completion for vim
-Plugin 'gaalcaras/ncm-R'
-" vim-hug-neovim-rpc
-Plugin 'roxma/vim-hug-neovim-rpc'
-
-" UltiSnips is the ultimate solution for snippets in Vim
-Plugin 'SirVer/ultisnips'
 
 " YouCompleteMe: a code-completion engine for Vim
 Plugin 'Valloric/YouCompleteMe'
