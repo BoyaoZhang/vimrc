@@ -8,6 +8,7 @@ syntax on
 set wildmenu
 set wildmode=list:longest,full
 
+
 " To insert space characters whenever the tab key is pressed
 set expandtab
 " To control the number of space characters that will be inserted
@@ -44,3 +45,6 @@ Plugin 'Valloric/YouCompleteMe'
 " All of your Plugins must be added before the following line
 call vundle#end()		"required
 filetype plugin indent on	"required
+
+
+map <F2> :NERDTreeToggle<CR>
