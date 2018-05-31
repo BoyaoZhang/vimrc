@@ -12,6 +12,9 @@ set number
 " show file stats
 set ruler
 
+" set background theme
+set background=dark
+
 " to insert space characters whenever the tab key is pressed
 set expandtab
 " to control the number of space characters that will be inserted
@@ -46,3 +49,6 @@ Plugin 'gaalcaras/ncm-R'
 " All of your Plugins must be added before the following line
 call vundle#end()		" required
 filetype plugin indent on 	" required
+
+
+map <F2> :NERDTreeToggle<CR>
